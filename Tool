@@ -1,0 +1,5 @@
+typeof（x）查类型
+str(x) 查结构
+convert from list to Data Frame
+do.call(rbind.data.frame, your_list)
+data.frame(matrix(unlist(your_list), nrow=length(your_list), byrow=T))
