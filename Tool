@@ -3,7 +3,7 @@ str(x) 查结构
 convert from list to Data Frame
 data = as.data.frame(matrix(your_list, ncol=8))
 convert from factor to character
-data = laaply(data,as.character)
-convert from character to numeric
+data = laaply(data,as.character) to list
+convert from character to numeric to List
 data = laaply(data,as.numeric)
 
