@@ -1,0 +1,50 @@
+1. 分组统计 每一项所占的百分比
+group by : aggregate(df,
+          list(Region = state.region,
+               Cold = df[,"Frost"] > 130),
+          mean)
+2.where temps[temps$country != "mycountry",] 
+4.sort:
+# Sort by sex first
+    cdata <- cdata[order(cdata$sex),]
+    cdata
+    #>   sex condition  N
+    #> 1   F   aspirin  5
+    #> 3   F   placebo 12
+    #> 2   M   aspirin  9
+    #> 4   M   placebo  4
+5.联系两个表单，算利润率
+Inner join: merge(df1, df2) will work for these examples because R automatically joins the frames by common variable names,
+but you would most likely want to specify merge(df1, df2, by = "CustomerId") to make sure that you were matching on only
+the fields you desired. You can also use the by.x and by.y parameters if the matching variables have different names in the 
+different data frames.
+
+Outer join: merge(x = df1, y = df2, by = "CustomerId", all = TRUE)
+
+Left outer: merge(x = df1, y = df2, by = "CustomerId", all.x = TRUE)
+
+Right outer: merge(x = df1, y = df2, by = "CustomerId", all.y = TRUE)
+
+Cross join: merge(x = df1, y = df2, by = NULL)
+6.count:
+#how many chickens
+    unique(data$Chick)
+7. 去掉 NA，na.rm=TRUE
+cdata.means <- aggregate(data[c("before","after","change")], 
+                             by = data[c("sex","condition")],
+                             FUN=mean, na.rm=TRUE)
+    cdata.means
+    #>   sex condition   before     after    change
+    #> 1   F   aspirin 11.06000  7.640000 -3.420000
+    #> 2   M   aspirin 11.26667  5.855556 -5.411111
+    #> 3   F   placebo 10.13333  8.075000 -2.058333
+    #> 4   M   placebo 11.47500 10.500000 -0.975000
+ 8.Function:
+ mean,median,max,min,sd,var
+ sum
+ sqrt
+ exp
+ log
+ summary
+ 
+ 
