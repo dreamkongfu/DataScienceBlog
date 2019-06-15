@@ -1,0 +1,8 @@
+library(dplyr)
+1. Group_by(dataframe$V1)  
+sales2 = as.data.frame(sales2)
+channesCount <- sales2 %>%
+  group_by(V3) %>%
+  tally
+%>% 表示 pipe, chain sentiments together;
+2.
