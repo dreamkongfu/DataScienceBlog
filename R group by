@@ -13,6 +13,8 @@ group by : aggregate(df,
     #> 3   F   placebo 12
     #> 2   M   aspirin  9
     #> 4   M   placebo  4
+# Sort by two collumn,one is decending,one is ascending
+cdata <-cdata[order(rev(cdata$sex),cdata$N,descreasing = TRUE),];
 5.联系两个表单，算利润率
 Inner join: merge(df1, df2) will work for these examples because R automatically joins the frames by common variable names,
 but you would most likely want to specify merge(df1, df2, by = "CustomerId") to make sure that you were matching on only
