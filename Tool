@@ -7,3 +7,6 @@ data = laaply(data,as.character) to list
 convert from character to numeric to List
 data = laaply(data,as.numeric)
 
+head(x,n)
+给列起名字
+colnames(x) = c("v1","v2")
