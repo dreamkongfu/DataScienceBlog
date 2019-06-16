@@ -1,0 +1,25 @@
+reshape2包：
+
+melt-把宽格式数据转化成长格式。
+
+cast-把长格式数据转化成宽格式。（dcast-输出时返回一个数据框。acast-输出时返回一个向量/矩阵/数组。）
+
+注：melt是数据融合的意思，它做的工作其实就是把数据由“宽”转“长”。
+
+cast 函数的作用除了还原数据外，还可以对数据进行整合。
+
+dcast 输出数据框。公式的左边每个变量都会作为结果中的一列，而右边的变量被当成因子类型，每个水平都会在结果中产生一列。
+
+dcast(data, formula, fun.aggregate = NULL,value.var = guess(data))
+library(reshape2)
+dcast(data=df,formula = date ~ type,fun.aggregate= mean,value.var = "val")
+dcast(long.mydata, movie ~ value, function(x) 1, fill = 0)
+tidyr包：
+
+gather-把宽度较大的数据转换成一个更长的形式，它类比于从reshape2包中融合函数的功能
+
+spread-把长的数据转换成一个更宽的形式，它类比于从reshape2包中铸造函数的功能。
+
+data.table包：
+
+data.table的函数melt 和dcast 是增强包reshape2里同名函数的扩展
