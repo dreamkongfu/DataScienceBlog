@@ -8,5 +8,12 @@ convert from character to numeric to List
 data = laaply(data,as.numeric)
 
 head(x,n)
-给列起名字
+1.给列起名字
 colnames(x) = c("v1","v2")
+2.给列修改值
+  先从factor 变 character
+  as.character(x$c)
+  再更改值
+  x$c[x$c=='c'] <- 'b'
+  可以 选择把 character 变成 factor
+  x$c <- factor(x$c)
