@@ -1,0 +1,5 @@
+aareg:
+ Aalen additive model:
+ cox regression model: cons:its validity relies heavily on assumption of proportional hazards
+                            insufficiency in dealing with time-varying covariate effects due to constant regression coefficients
+ 
