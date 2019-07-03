@@ -2,4 +2,10 @@ aareg:
  Aalen additive model:
  cox regression model: cons:its validity relies heavily on assumption of proportional hazards
                             insufficiency in dealing with time-varying covariate effects due to constant regression coefficients
+ Akaike's Criterion: Akaike's information criterion(AIC) is best known for goodness-of-fit index(GIF) for conformatory factor
+                     witten as X^2 + 2q. X^2 is the maximum likelihood chi-squired statistic and q refers to the freedom of degree
+                     for model selection in regression model,Bozdogan refers to as risk of modeling(fitted model vs true model)vs risk of estimation(population estimate vs sample estimate)
+                     cons: sensitive to sample size,least sensitive to misspecification error among GIF,little empirical support to justify its application, not recommended to use
+ 
+ conformatory factor: 
  
