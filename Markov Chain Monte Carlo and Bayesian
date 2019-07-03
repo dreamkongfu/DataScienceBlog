@@ -1,0 +1,30 @@
+A. Bayesian Statistics VS classic statistic
+1. treating parameters as random variables
+2. credible intervals
+3. be improved by Markov Chain Monte Carlo for high-dimensional problems no mater its distributions
+
+B. MCMC Sampling Algorithms
+Metropolis-Hastings algorithm assess whether to update a parameter
+
+C. Convergence :
+1.use two different starting values to ensure full converge
+2.Gelman-Rubin scale reduction factor(SRF)  <=1.2 means convergence
+
+D.choice of prior
+1. sensitivity analysis with a range of such priors.
+2. off the shelf priors
+3.informative subjective priors from experts, historical studies or established evidence
+4.meta-analysis to set an informative prior
+
+E. Model comparison 
+1.Bayes factor : B12 = P(Y/M1)/P(Y/M2) 
+2. asses using posterior model P(Mj/Y), P(Mj/Y) = P(Mj)P(Y/Mj) /sum(P(Mi)P(Y/Mi) i from 1 to T 
+3. model averaged estimates
+3. generalized linear mixed models
+
+F Bayesian appplication
+1.most frequent analytic framework: multivariate analysis and structural equation models(SEMs)
+2. Most generally , latent class analysis
+3. diagnosis and classification studies(Discriminant Analysis, k-means Analysis)
+4 panle and case control studies
+5. item response analysis
