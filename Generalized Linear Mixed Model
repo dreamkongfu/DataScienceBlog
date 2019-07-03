@@ -1,0 +1,12 @@
+1. Fixed effects regression models(linear regression,logistic regresssion and Poisson regression), Generalized Linear Model represents this class
+                assumption: all observations are independent of each other, X correlated data struture like clustered data, longitudinal data
+2.clustered data:subjects are observed nested within larger units
+longitudinal data:repeated observations are nested within subjects. See Longitudinal data Analysis;Repeated Measures Analysis of Variance
+multilevel data (level-1 observations are nested within higher level-2 observations). Using Linear Multilevel Model 
+
+2.1.Marginal Models for Clustered Data, Generalized Estimating Equations(GEE) for correlated data
+2.2 probit model 
+2.3 tetrachoric correlations:四分相关
+    四分相关适用于计算两个变量都是连续变量，且每一个变量的变化方向都被人为地分为两种类型的测量数据之间的相关。
+2.4 polychoric correlation：多格相关
+    适用于潜在变量是连续正态的，但是我们观察的变量只是顺序变量，这在心理学中非常常见，例如量表题目中由非常不同意到非常同意。其实上面的四分相关也是多分格相关的一个特例。
