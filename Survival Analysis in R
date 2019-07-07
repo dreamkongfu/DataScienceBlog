@@ -1,5 +1,8 @@
-aareg:
+1.aareg:
  Aalen additive model:
+ example: 
+ # Fit a model to the lung cancer data set
+  lfit <- aareg(Surv(time, status) ~ age + sex + ph.ecog, data=lung,nmin=1)
  cox regression model: cons:its validity relies heavily on assumption of proportional hazards
                             insufficiency in dealing with time-varying covariate effects due to constant regression coefficients
  Akaike's Criterion: Akaike's information criterion(AIC) is best known for goodness-of-fit index(GIF) for conformatory factor
@@ -9,3 +12,17 @@ aareg:
  
  conformatory factor: 
  
+ 2.aeqSurv:create surv object for tied events
+ 
+ Issue: Tied events are simply when two events occur at the exact same recorded time.
+ Solution: This routine is called by both survfit and coxph to deal with the issue of ties that get incorrectly
+broken due to floating point imprecision.
+return: a Surv object identical to the original, but with ties restored
+3.anova.coxph :Analysis of Deviance for a Cox model
+4.attrassign: Create new-style "assign" attribute
+5.basehaz: Alias for the survfit function
+ Compute the predicted survival curve for a Cox model
+6.cch: Fits proportional hazards regression model to case-cohort data
+   case-cohort data is random sample of the corhort study used as a comparison group for all cases in the cohort
+                  issue: too expensive to collect and process covariate information on all study subjects
+                  prentice estimator is complex to estimate variance
