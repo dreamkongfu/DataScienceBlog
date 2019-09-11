@@ -1,0 +1,75 @@
+Design Stages:
+      Order of Magnitude -> Schematic Design -> Design Development ->Construction Design
+      Order of Magnitude  ->  conceptual design -> rough estimate(square floor & unit cost) + cost of contingency
+      Schematic Design -> lay out and  interior program -> Architectural,Structural,Mechanical,Electrical,Plumbing,Fire alarm, Item Quantity,Cost,price
+      Design Development -> selection department and functional area , pantries, bathroom,private offices ->Architectural(Wall, Floor,Ceiling,Doors(Item Quantity,Cost,price)
+      Construction Design -> Specifications&Drawings for construction projects. flooring, walls,ceilings,furnitures MEP systems
+      
+      Tips :
+      The cost of implementing design changes beyond the desin phase can add significant cost impacts to your project.
+      Apply contingency to overal price
+Estimate: build the project on paper. Then asses quantity
+      Conceptual estimate : schematic and budgetary phase
+      preliminary estimate : 
+      Detailed estimate: 1. break into cost centers 2. estimate quantities 3, estimate prices 4,price * quantities
+      Tools:Cost indices,Cost capacity factor ,Component Ratios, Parameter Costs
+            Cost indices, a price of a total constant package of resources,typital input: 
+                   4 constant package : Lumber,structure steal,cement and labor , constant quantity
+                   The index is computed by dividing cost by the cost in a base reference period. Show changes of cost over time
+                        e.g productivity , inflation
+             Cost capacity factor 
+                  applies to changes in size, in scope, or in capacity of projects of similar type.
+                   c2 = c1/(Q2/Q1)^x
+             Component Ratios
+             Parameter Costs
+ Pricing: 
+             All-in rate: rates database whin your company
+                         Rate data base online -RS means , for reference
+                         Previous projects/benchmarking
+             Include all material, labor,equipment&other associated costs
+
+             Labor component
+                    Prices in monetary terms: Hourly wages,fringe benefits,payroll Insurance,taxes,wage premiums
+                    Productivity: The amount of work that a worker can accomplish in a defined period of time
+                    Prices in monetary terms: 
+                      wage: unit labor cost * quantity 
+                            difficulty(scope and variety of work ,labor union,labor autonomy,different rates,state laws,taxes,vary by location)
+                            location& labor agreement , type of craft,classification , wage at time of work
+                      fringe benefits: health insurance, vacation,Pensions,Detal Plas,training,industry advancement
+                      Insurance Based on Payroll:Workmen's compensation,public liability,property damage,premium,FICA insurances&most SDIs
+                      Taxes based on Payroll: Federal income tax, State income tax, Local taxes(not for estimating)
+                      Wage premiums: Overtime work,shift-work differentials, premium for hazardous work
+                     Labor Cost Estimate
+                        work hours = quantity takoff *productivity rate
+                        Total labor cost = work hours* average wage rate
+                              Labor cost = Base wage rate(include premium)+Fringe benefits+Taxes+Insurances
+                        Table :  Quantity craft hourly wae rate cost/ hour 
+
+Post Contract
+        1. Interim valuations and certificates for payments
+        2.Cash flow control and forecasts through budgetary control
+            adjust the cash flow plan to reflect alterations in the target cost, the master schedule,the forecasted inflation
+        3. Financial statements showing current and expected final costs for the project
+            review contingency and risk allowances at intervals and reporting the assesments
+            regulaly updating and reissuing the cost plan and variation orders causing any alteration
+        Action: submit regular up-to date and accurate cost reports to inform current budgetary and cost situation
+        S-curve in cost reporting: cumulative project cost plotted against time
+                                   used at a desired forecast for cash flow, performance checking ,identify growth,slippage, problems
+        Changes of control summary 
+        Contingency tracker
+        funding tracker
+        risk and opportunity register
+        Procurement schedules: an action of obtaining or acquiring 
+                  Pre Bid Estimate( baseline estimate , perfomed internally )
+                  Bid Documents (organize ,realese bid)-> Bid Return& Leveling(analysis all bids, compare) -> Contract Award(final negotiation,award contract)
+                  select vendors,strategic vetting selection,establish payment term,contract negotiation,purchasing of goods
+      Pre Bid Estimate : understand potential budget that needs to be set aside
+                         establish contact with suppliers
+                         setting a cost baseline to your project/bechmark
+      1.determine funding
+      2.update estimate to current design
+      3.understand current values
+      4.bring team to the procurement stage
+
+
+
